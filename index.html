@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="Observatorio REDES de presupuesto público y transferencias por canon, 2016-2026.">
+  <title>Presupuesto y canon 2016–2026 | REDES</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <button class="brand-button" id="homeBtn" aria-label="Restablecer dashboard"><img src="assets/rd-logo.png" alt="REDES"></button>
+    <div class="header-copy">
+      <span>RED DE ESTUDIOS PARA EL DESARROLLO</span>
+      <h1>Presupuesto y canon 2016–2026</h1>
+    </div>
+    <div class="period-pill">2016–2026</div>
+  </div>
+</header>
+<main class="wrap main-wrap">
+  <section class="hero">
+    <div>
+      <div class="eyebrow">OBSERVATORIO REDES</div>
+      <h2>Finanzas subnacionales, en una sola vista</h2>
+      <p>Compara el PIM de gobiernos regionales y municipalidades, y explora las transferencias por canon y recursos relacionados con filtros territoriales.</p>
+    </div>
+    <div class="hero-badge"><strong>25</strong><span>gobiernos regionales en la comparación nacional</span></div>
+  </section>
+
+  <nav class="main-tabs" aria-label="Secciones">
+    <button class="main-tab active" data-tab="budget">Presupuesto</button>
+    <button class="main-tab" data-tab="canon">Canon y transferencias</button>
+  </nav>
+
+  <div id="app"></div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div><strong>REDES</strong><br>Red de Estudios para el Desarrollo</div>
+    <div><strong>Fuentes:</strong><br>MEF · Consulta Amigable / Portal de Transferencias</div>
+    <div>Dashboard estático preparado para uso local y GitHub Pages.</div>
+  </div>
+</footer>
+<script src="data/dashboard-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
