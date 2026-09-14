@@ -1,4 +1,0 @@
-Dashboard REDES — Presupuesto y canon 2016–2026
-
-Versión preparada para GitHub Pages.
-Fuente de datos: Ministerio de Economía y Finanzas (MEF).
